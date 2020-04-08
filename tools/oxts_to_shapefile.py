@@ -3,7 +3,7 @@ import argparse
 import geopandas as gpd
 import pykitti
 
-from shapely.geometry import LineString, Point
+from shapely.geometry import LineString
 
 
 def parse_args():
