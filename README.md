@@ -7,7 +7,9 @@ See [this material]()(in Japanese) for more details.
 
 ![](figs/figure_01.png)
 
-## Download KITTI RawData
+## Usage
+
+### Download KITTI RawData
 
 ```
 cd kalman_filter_with_kitti
@@ -29,6 +31,6 @@ unzip 2011_09_30_drive_0033_sync.zip
 unzip 2011_09_30_calib.zip
 ```
 
-## Run demo
+### Run demo
 
 See [demo.ipynb](demo.ipynb).
