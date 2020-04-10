@@ -2,4 +2,4 @@
 
 See [demo.ipynb](demo.ipynb).
 
-![](fig/figure_01.png)
+![](figs/figure_01.png)
