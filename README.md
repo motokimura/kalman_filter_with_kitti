@@ -3,6 +3,8 @@
 Providing simple Python scripts appling extended Kalman filter 
 to KITTI GPS/IMU data for vehicle localization.
 
+See [this material](https://speakerdeck.com/motokimura/shi-jian-karumanhuiruta)(in Japanese) for more details.
+
 ![](figs/figure_01.png)
 
 ## Usage
