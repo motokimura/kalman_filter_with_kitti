@@ -31,6 +31,12 @@ unzip 2011_09_30_drive_0033_sync.zip
 unzip 2011_09_30_calib.zip
 ```
 
+### Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
 ### Run demo
 
 See [demo.ipynb](demo.ipynb).
