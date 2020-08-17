@@ -1,6 +1,6 @@
 # kalman_filter_with_kitti
 
-Providing simple Python scripts appling extended Kalman filter 
+Provides Python scripts applying extended Kalman filter 
 to KITTI GPS/IMU data for vehicle localization.
 
 See [this material](https://speakerdeck.com/motokimura/shi-jian-karumanhuiruta)(in Japanese) for more details.
