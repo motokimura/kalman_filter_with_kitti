@@ -1,1 +1,2 @@
-from .extended_kalman_filter import ExtendedKalmanFilter
+from .extended_kalman_filter import ExtendedKalmanFilter_setup3, ExtendedKalmanFilter_setup1
+from .kalman_filter import KalmanFilter
