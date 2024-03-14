@@ -146,3 +146,14 @@ def enu_to_lla(points_enu, ref_lla):
     points_ecef = enu_to_ecef(points_enu, ref_lla)
     points_lla = ecef_to_lla(points_ecef)
     return points_lla
+
+def get_rigid_transformation(calib_path):
+    with open(calib_path, 'r') as f:
+        calib = f.readlines()
+
+    R = np.array([float(x) for x in calib[1].strip().split(' ')[1:]]).reshape((3, 3))
+    t = np.array([float(x) for x in calib[2].strip().split(' ')[1:]])[:, None]
+
+    T = np.vstack((np.hstack((R, t)), np.array([0, 0, 0, 1])))
+    
+    return T
